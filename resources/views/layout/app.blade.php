@@ -1,4 +1,5 @@
 @include('layout.template')
+
 <body>
     <div id="app">
         <div class="main-wrapper">
@@ -10,7 +11,7 @@
                 <aside id="sidebar-wrapper">
                     @include('layout.aside')
                 </aside>
-            </div>
+            </div>  
 
             <!-- Main Content -->
             <div class="main-content">
